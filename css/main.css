@@ -41,7 +41,23 @@
           .main_visuals .mv_container .hero_text h1 span {
             font-size: 45px;
             letter-spacing: 2px;
-            font-family: ShinGoPr5_Bold; } }
+            font-family: ShinGoPr5_Bold; }
+  .call_action {
+    width: 1024px;
+    height: 300px;
+    text-align: center;
+    margin: 50px auto;
+    color: white;
+    padding-top: 45px;
+    background-image: linear-gradient(to right, #164683, #00295c);
+    border-radius: 5px; }
+    .call_action p {
+      width: 450px;
+      font-family: 'Noto Sans JP', sans-serif;
+      font-size: 16px;
+      margin: 0 auto;
+      line-height: 200%;
+      margin-bottom: 20px; } }
 
 @media screen and (min-width: 769px) and (max-width: 1200px) {
   .main_visuals {
@@ -74,7 +90,29 @@
           .main_visuals .mv_container .hero_text h1 span {
             font-size: 40px;
             letter-spacing: 2px;
-            font-family: ShinGoPr5_Bold; } }
+            font-family: ShinGoPr5_Bold; }
+  .call_action {
+    width: 900px;
+    height: 250px;
+    text-align: center;
+    margin: 50px auto;
+    color: white;
+    padding-top: 45px;
+    background-image: linear-gradient(to right, #164683, #00295c);
+    border-radius: 5px; }
+    .call_action p {
+      width: 450px;
+      font-family: 'Noto Sans JP', sans-serif;
+      font-size: 16px;
+      margin: 0 auto;
+      line-height: 200%;
+      margin-bottom: 20px; }
+    .call_action .yellow_btn {
+      width: 400px; }
+      .call_action .yellow_btn img {
+        width: 100%;
+        max-width: 400px;
+        height: auto; } }
 
 @media screen and (min-width: 501px) and (max-width: 768px) {
   .main_visuals {
@@ -107,7 +145,29 @@
           .main_visuals .mv_container .hero_text h1 span {
             font-size: 35px;
             letter-spacing: 2px;
-            font-family: ShinGoPr5_Bold; } }
+            font-family: ShinGoPr5_Bold; }
+  .call_action {
+    width: 700px;
+    height: 250px;
+    text-align: center;
+    margin: 50px auto;
+    color: white;
+    padding-top: 45px;
+    background-image: linear-gradient(to right, #164683, #00295c);
+    border-radius: 5px; }
+    .call_action p {
+      width: 450px;
+      font-family: 'Noto Sans JP', sans-serif;
+      font-size: 16px;
+      margin: 0 auto;
+      line-height: 200%;
+      margin-bottom: 20px; }
+    .call_action .yellow_btn {
+      width: 400px; }
+      .call_action .yellow_btn img {
+        width: 100%;
+        max-width: 400px;
+        height: auto; } }
 
 @media screen and (max-width: 500px) {
   .main_visuals {
@@ -140,7 +200,29 @@
           .main_visuals .mv_container .hero_text h1 span {
             font-size: 20px;
             letter-spacing: 2px;
-            font-family: ShinGoPr5_Bold; } }
+            font-family: ShinGoPr5_Bold; }
+  .call_action {
+    width: 95%;
+    height: 250px;
+    text-align: center;
+    margin: 50px auto;
+    color: white;
+    padding-top: 45px;
+    background-image: linear-gradient(to right, #164683, #00295c);
+    border-radius: 5px; }
+    .call_action p {
+      width: 90%;
+      font-family: 'Noto Sans JP', sans-serif;
+      font-size: 14px;
+      margin: 0 auto;
+      line-height: 200%;
+      margin-bottom: 20px; }
+    .call_action .yellow_btn {
+      width: 80%; }
+      .call_action .yellow_btn img {
+        width: 100%;
+        max-width: 320px;
+        height: auto; } }
 
 * {
   margin: 0;
