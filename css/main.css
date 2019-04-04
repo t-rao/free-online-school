@@ -203,7 +203,100 @@
         font-family: 'Noto Sans JP', sans-serif;
         font-size: 16px;
         margin-top: 30px;
-        line-height: 200%; } }
+        line-height: 200%; }
+  .call_action_img {
+    width: 1024px;
+    height: 700px;
+    text-align: center;
+    margin: 50px auto;
+    color: white;
+    padding-top: 50px;
+    background-image: linear-gradient(to right, #164683, #00295c);
+    border-radius: 5px; }
+    .call_action_img p {
+      width: 450px;
+      font-family: 'Noto Sans JP', sans-serif;
+      font-size: 20px;
+      margin: 0 auto;
+      line-height: 200%;
+      margin-top: 20px;
+      margin-bottom: 20px; }
+    .call_action_img .gall_img {
+      width: 800px;
+      margin: 0 auto;
+      text-align: center; }
+      .call_action_img .gall_img img {
+        width: 100%;
+        max-width: 800px;
+        height: auto; }
+    .call_action_img .yellow_btn {
+      width: 400px; }
+      .call_action_img .yellow_btn img {
+        width: 100%;
+        max-width: 400px;
+        height: auto; }
+  .about {
+    width: 1024px;
+    height: 1600px;
+    background-color: white;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    overflow: hidden; }
+    .about h2 {
+      font-size: 40px;
+      font-family: 'Noto Sans JP', sans-serif;
+      color: #13417c;
+      width: 770px;
+      letter-spacing: 2px;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 50px; }
+    .about .inner-01_about {
+      height: 400px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin-top: 100px;
+      margin-bottom: 60px; }
+      .about .inner-01_about .text {
+        width: 400px;
+        margin-left: 90px;
+        font-size: 18px;
+        font-family: 'Noto Sans JP', sans-serif;
+        line-height: 200%; }
+        .about .inner-01_about .text span {
+          color: #bd2739; }
+      .about .inner-01_about .img_bg {
+        background-image: url(../images/lady_des.png);
+        background-repeat: no-repeat; }
+    .about .checklist {
+      width: 700px;
+      height: 650px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-rows: repeat(7, 50px);
+      grid-row-gap: 40px;
+      font-family: 'Noto Sans JP', sans-serif;
+      font-size: 18px; }
+      .about .checklist li {
+        list-style: none;
+        display: grid;
+        grid-template-columns: 650px 50px;
+        height: 60px;
+        padding: 15px;
+        background: #f8f8f8;
+        box-shadow: 0px 2px 2px 1px #ccc; }
+        .about .checklist li img {
+          width: 60%; }
+        .about .checklist li p > span {
+          color: #bd2739; }
+    .about .checklist + p {
+      width: 800px;
+      margin: 0 auto;
+      font-family: 'Noto Sans JP', sans-serif;
+      font-size: 18px;
+      color: #b1b1b1; } }
 
 @media screen and (min-width: 769px) and (max-width: 1200px) {
   .main_visuals {
@@ -398,7 +491,100 @@
         font-family: 'Noto Sans JP', sans-serif;
         font-size: 16px;
         margin-top: 30px;
-        line-height: 200%; } }
+        line-height: 200%; }
+  .call_action_img {
+    width: 960px;
+    height: 650px;
+    text-align: center;
+    margin: 50px auto;
+    color: white;
+    padding-top: 55px;
+    background-image: linear-gradient(to right, #164683, #00295c);
+    border-radius: 5px; }
+    .call_action_img p {
+      width: 450px;
+      font-family: 'Noto Sans JP', sans-serif;
+      font-size: 20px;
+      margin: 0 auto;
+      line-height: 200%;
+      margin-top: 20px;
+      margin-bottom: 20px; }
+    .call_action_img .gall_img {
+      width: 700px;
+      margin: 0 auto;
+      text-align: center; }
+      .call_action_img .gall_img img {
+        width: 100%;
+        max-width: 700px;
+        height: auto; }
+    .call_action_img .yellow_btn {
+      width: 400px; }
+      .call_action_img .yellow_btn img {
+        width: 100%;
+        max-width: 400px;
+        height: auto; }
+  .about {
+    width: 960px;
+    height: 1600px;
+    background-color: white;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    overflow: hidden; }
+    .about h2 {
+      font-size: 40px;
+      font-family: 'Noto Sans JP', sans-serif;
+      color: #13417c;
+      width: 770px;
+      letter-spacing: 2px;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 50px; }
+    .about .inner-01_about {
+      height: 400px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin-top: 100px;
+      margin-bottom: 60px; }
+      .about .inner-01_about .text {
+        width: 400px;
+        margin-left: 90px;
+        font-size: 18px;
+        font-family: 'Noto Sans JP', sans-serif;
+        line-height: 200%; }
+        .about .inner-01_about .text span {
+          color: #bd2739; }
+      .about .inner-01_about .img_bg {
+        background-image: url(../images/lady_des.png);
+        background-repeat: no-repeat; }
+    .about .checklist {
+      width: 700px;
+      height: 650px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-rows: repeat(7, 50px);
+      grid-row-gap: 40px;
+      font-family: 'Noto Sans JP', sans-serif;
+      font-size: 18px; }
+      .about .checklist li {
+        list-style: none;
+        display: grid;
+        grid-template-columns: 650px 50px;
+        height: 60px;
+        padding: 15px;
+        background: #f8f8f8;
+        box-shadow: 0px 2px 2px 1px #ccc; }
+        .about .checklist li img {
+          width: 60%; }
+        .about .checklist li p > span {
+          color: #bd2739; }
+    .about .checklist + p {
+      width: 800px;
+      margin: 0 auto;
+      font-family: 'Noto Sans JP', sans-serif;
+      font-size: 18px;
+      color: #b1b1b1; } }
 
 @media screen and (min-width: 501px) and (max-width: 768px) {
   .main_visuals {
@@ -593,7 +779,102 @@
         font-family: 'Noto Sans JP', sans-serif;
         font-size: 16px;
         margin-top: 30px;
-        line-height: 200%; } }
+        line-height: 200%; }
+  .call_action_img {
+    width: 720px;
+    height: 600px;
+    text-align: center;
+    margin: 50px auto;
+    color: white;
+    padding-top: 55px;
+    background-image: linear-gradient(to right, #164683, #00295c);
+    border-radius: 5px; }
+    .call_action_img p {
+      width: 450px;
+      font-family: 'Noto Sans JP', sans-serif;
+      font-size: 20px;
+      margin: 0 auto;
+      line-height: 200%;
+      margin-top: 20px;
+      margin-bottom: 20px; }
+    .call_action_img .gall_img {
+      width: 600px;
+      margin: 0 auto;
+      text-align: center; }
+      .call_action_img .gall_img img {
+        width: 100%;
+        max-width: 600px;
+        height: auto; }
+    .call_action_img .yellow_btn {
+      width: 400px; }
+      .call_action_img .yellow_btn img {
+        width: 100%;
+        max-width: 400px;
+        height: auto; }
+  .about {
+    width: 720px;
+    height: 1600px;
+    background-color: white;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    overflow: hidden; }
+    .about h2 {
+      font-size: 40px;
+      font-family: 'Noto Sans JP', sans-serif;
+      color: #13417c;
+      width: 700px;
+      letter-spacing: 2px;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 50px; }
+    .about .inner-01_about {
+      height: 400px;
+      display: grid;
+      grid-template-columns: 350px 400px;
+      margin-top: 100px;
+      margin-bottom: 60px; }
+      .about .inner-01_about .text {
+        width: 300px;
+        margin-left: 20px;
+        font-size: 18px;
+        font-family: 'Noto Sans JP', sans-serif;
+        line-height: 200%; }
+        .about .inner-01_about .text span {
+          color: #bd2739; }
+      .about .inner-01_about .img_bg {
+        background-image: url(../images/lady_des.png);
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-size: 130%; }
+    .about .checklist {
+      width: 650px;
+      height: 650px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-rows: repeat(7, 50px);
+      grid-row-gap: 40px;
+      font-family: 'Noto Sans JP', sans-serif;
+      font-size: 18px; }
+      .about .checklist li {
+        list-style: none;
+        display: grid;
+        grid-template-columns: 550px 50px;
+        height: 60px;
+        padding: 15px;
+        background: #f8f8f8;
+        box-shadow: 0px 2px 2px 1px #ccc; }
+        .about .checklist li img {
+          width: 60%; }
+        .about .checklist li p > span {
+          color: #bd2739; }
+    .about .checklist + p {
+      width: 650px;
+      margin: 0 auto;
+      font-family: 'Noto Sans JP', sans-serif;
+      font-size: 18px;
+      color: #b1b1b1; } }
 
 @media screen and (max-width: 500px) {
   .main_visuals {
@@ -790,7 +1071,107 @@
         font-family: 'Noto Sans JP', sans-serif;
         font-size: 16px;
         margin-top: 30px;
-        line-height: 200%; } }
+        line-height: 200%; }
+  .call_action_img {
+    width: 95%;
+    height: 450px;
+    text-align: center;
+    margin: 50px auto;
+    color: white;
+    padding-top: 55px;
+    background-image: linear-gradient(to right, #164683, #00295c);
+    border-radius: 5px; }
+    .call_action_img p {
+      width: 90%;
+      font-family: 'Noto Sans JP', sans-serif;
+      font-size: 16px;
+      margin: 0 auto;
+      line-height: 200%;
+      margin-top: 20px;
+      margin-bottom: 20px; }
+    .call_action_img .gall_img {
+      width: 100%;
+      margin: 0 auto;
+      text-align: center; }
+      .call_action_img .gall_img img {
+        width: 100%;
+        max-width: 90%;
+        height: auto; }
+    .call_action_img .yellow_btn {
+      width: 90%; }
+      .call_action_img .yellow_btn img {
+        width: 100%;
+        max-width: 90%;
+        height: auto; }
+  .about {
+    width: 95%;
+    height: 1650px;
+    background-color: white;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    overflow: hidden; }
+    .about h2 {
+      font-size: 30px;
+      font-family: 'Noto Sans JP', sans-serif;
+      color: #13417c;
+      text-align: center;
+      width: 100%;
+      letter-spacing: 2px;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 50px; }
+    .about .inner-01_about {
+      height: 600px;
+      display: grid;
+      grid-template-rows: 300px 300px;
+      grid-row-gap: 30px;
+      margin-top: 100px;
+      margin-bottom: 60px; }
+      .about .inner-01_about .text {
+        width: 300px;
+        text-align: center;
+        margin-left: 20px;
+        font-size: 18px;
+        font-family: 'Noto Sans JP', sans-serif;
+        line-height: 200%;
+        grid-row-start: 2;
+        grid-row-end: 3; }
+        .about .inner-01_about .text span {
+          color: #bd2739; }
+      .about .inner-01_about .img_bg {
+        background-image: url(../images/lady_des.png);
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-size: 130%; }
+    .about .checklist {
+      width: 90%;
+      height: 500px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-rows: repeat(7, 50px);
+      grid-row-gap: 20px;
+      font-family: 'Noto Sans JP', sans-serif;
+      font-size: 14px; }
+      .about .checklist li {
+        list-style: none;
+        display: grid;
+        grid-template-columns: 90% 10%;
+        height: 40px;
+        padding: 8px;
+        background: #f8f8f8;
+        box-shadow: 0px 2px 2px 1px #ccc; }
+        .about .checklist li img {
+          width: 50%; }
+        .about .checklist li p > span {
+          color: #bd2739; }
+    .about .checklist + p {
+      width: 95%;
+      margin: 0 auto;
+      font-family: 'Noto Sans JP', sans-serif;
+      font-size: 14px;
+      color: #b1b1b1; } }
 
 * {
   margin: 0;
