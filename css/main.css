@@ -82,26 +82,30 @@
       margin: 0 auto;
       text-align: center;
       margin-bottom: 30px; }
-    .achive .green-graph, .achive .likes_container {
+    .achive .green-graph,
+    .achive .likes_container {
       width: 800px;
       margin: 0 auto;
       margin-bottom: 25px;
       margin-top: 25px; }
-      .achive .green-graph img, .achive .likes_container img {
+      .achive .green-graph img,
+      .achive .likes_container img {
         width: 100%;
         max-width: 800px;
         height: auto; }
-    .achive .green-graph + p, .achive .likes_container + p {
+    .achive .green-graph + p,
+    .achive .likes_container + p {
       margin-top: 50px;
       margin-bottom: 50px;
       width: 800px;
       line-height: 40px; }
-      .achive .green-graph + p span, .achive .likes_container + p span {
+      .achive .green-graph + p span,
+      .achive .likes_container + p span {
         color: #bd2739;
         font-weight: 600; }
     .achive p {
       font-family: 'Noto Sans JP', sans-serif;
-      font-size: 18px;
+      font-size: 16px;
       margin: 0 auto;
       color: #424242; }
     .achive .achive_grid {
@@ -122,7 +126,7 @@
         .achive .achive_grid h3 .red_text {
           color: #bd2739; }
         .achive .achive_grid h3 .line_bg {
-          background-image: url(../images/rectangular_line.png);
+          background-image: url("../images/rectangular_line.png");
           background-repeat: no-repeat;
           background-position: bottom left;
           background-size: 80%; }
@@ -136,7 +140,70 @@
         line-height: 200%;
         color: #818181;
         font-size: 14px;
-        letter-spacing: 2px; } }
+        letter-spacing: 2px; }
+  .investment {
+    width: 1024px;
+    height: 1900px;
+    background-color: white;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    overflow: hidden; }
+    .investment h2 {
+      font-size: 40px;
+      font-family: 'Noto Sans JP', sans-serif;
+      color: #13417c;
+      width: 480px;
+      letter-spacing: 2px;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 50px; }
+    .investment h2 + p {
+      width: 800px;
+      margin: 30px auto;
+      font-family: 'Noto Sans JP', sans-serif;
+      font-size: 16px; }
+    .investment .white-graph {
+      width: 800px;
+      margin: 0 auto;
+      margin-bottom: 80px;
+      margin-top: 25px; }
+      .investment .white-graph img {
+        width: 100%;
+        max-width: 800px;
+        height: auto; }
+    .investment .para_container {
+      width: 800px;
+      margin: 0 auto; }
+      .investment .para_container p {
+        margin-top: 15px;
+        margin-bottom: 30px;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-size: 16px; }
+    .investment .school_serv {
+      width: 800px;
+      margin: 0 auto; }
+      .investment .school_serv .school_logo {
+        width: 300px;
+        margin: 0 auto; }
+        .investment .school_serv .school_logo img {
+          width: 100%;
+          max-width: 300px;
+          height: auto; }
+      .investment .school_serv .gallery_pic {
+        width: 800px;
+        margin: 0 auto;
+        margin-top: 20px; }
+        .investment .school_serv .gallery_pic img {
+          width: 100%;
+          max-width: 800px;
+          height: auto; }
+      .investment .school_serv .gallery_pic + p {
+        font-family: 'Noto Sans JP', sans-serif;
+        font-size: 16px;
+        margin-top: 30px;
+        line-height: 200%; } }
 
 @media screen and (min-width: 769px) and (max-width: 1200px) {
   .main_visuals {
@@ -210,26 +277,30 @@
       margin: 0 auto;
       text-align: center;
       margin-bottom: 30px; }
-    .achive .green-graph, .achive .likes_container {
+    .achive .green-graph,
+    .achive .likes_container {
       width: 800px;
       margin: 0 auto;
       margin-bottom: 25px;
       margin-top: 25px; }
-      .achive .green-graph img, .achive .likes_container img {
+      .achive .green-graph img,
+      .achive .likes_container img {
         width: 100%;
         max-width: 800px;
         height: auto; }
-    .achive .green-graph + p, .achive .likes_container + p {
+    .achive .green-graph + p,
+    .achive .likes_container + p {
       margin-top: 50px;
       margin-bottom: 50px;
       width: 800px;
       line-height: 40px; }
-      .achive .green-graph + p span, .achive .likes_container + p span {
+      .achive .green-graph + p span,
+      .achive .likes_container + p span {
         color: #bd2739;
         font-weight: 600; }
     .achive p {
       font-family: 'Noto Sans JP', sans-serif;
-      font-size: 18px;
+      font-size: 16px;
       margin: 0 auto;
       color: #424242; }
     .achive .achive_grid {
@@ -250,7 +321,7 @@
         .achive .achive_grid h3 .red_text {
           color: #bd2739; }
         .achive .achive_grid h3 .line_bg {
-          background-image: url(../images/rectangular_line.png);
+          background-image: url("../images/rectangular_line.png");
           background-repeat: no-repeat;
           background-position: bottom left;
           background-size: 80%; }
@@ -264,7 +335,70 @@
         line-height: 200%;
         color: #818181;
         font-size: 14px;
-        letter-spacing: 2px; } }
+        letter-spacing: 2px; }
+  .investment {
+    width: 960px;
+    height: 1900px;
+    background-color: white;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    overflow: hidden; }
+    .investment h2 {
+      font-size: 40px;
+      font-family: 'Noto Sans JP', sans-serif;
+      color: #13417c;
+      width: 480px;
+      letter-spacing: 2px;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 50px; }
+    .investment h2 + p {
+      width: 800px;
+      margin: 30px auto;
+      font-family: 'Noto Sans JP', sans-serif;
+      font-size: 16px; }
+    .investment .white-graph {
+      width: 800px;
+      margin: 0 auto;
+      margin-bottom: 80px;
+      margin-top: 25px; }
+      .investment .white-graph img {
+        width: 100%;
+        max-width: 800px;
+        height: auto; }
+    .investment .para_container {
+      width: 800px;
+      margin: 0 auto; }
+      .investment .para_container p {
+        margin-top: 15px;
+        margin-bottom: 30px;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-size: 16px; }
+    .investment .school_serv {
+      width: 800px;
+      margin: 0 auto; }
+      .investment .school_serv .school_logo {
+        width: 300px;
+        margin: 0 auto; }
+        .investment .school_serv .school_logo img {
+          width: 100%;
+          max-width: 300px;
+          height: auto; }
+      .investment .school_serv .gallery_pic {
+        width: 800px;
+        margin: 0 auto;
+        margin-top: 20px; }
+        .investment .school_serv .gallery_pic img {
+          width: 100%;
+          max-width: 800px;
+          height: auto; }
+      .investment .school_serv .gallery_pic + p {
+        font-family: 'Noto Sans JP', sans-serif;
+        font-size: 16px;
+        margin-top: 30px;
+        line-height: 200%; } }
 
 @media screen and (min-width: 501px) and (max-width: 768px) {
   .main_visuals {
@@ -338,26 +472,30 @@
       margin: 0 auto;
       text-align: center;
       margin-bottom: 30px; }
-    .achive .green-graph, .achive .likes_container {
+    .achive .green-graph,
+    .achive .likes_container {
       width: 680px;
       margin: 0 auto;
       margin-bottom: 25px;
       margin-top: 25px; }
-      .achive .green-graph img, .achive .likes_container img {
+      .achive .green-graph img,
+      .achive .likes_container img {
         width: 100%;
         max-width: 800px;
         height: auto; }
-    .achive .green-graph + p, .achive .likes_container + p {
+    .achive .green-graph + p,
+    .achive .likes_container + p {
       margin-top: 50px;
       margin-bottom: 50px;
       width: 680px;
       line-height: 40px; }
-      .achive .green-graph + p span, .achive .likes_container + p span {
+      .achive .green-graph + p span,
+      .achive .likes_container + p span {
         color: #bd2739;
         font-weight: 600; }
     .achive p {
       font-family: 'Noto Sans JP', sans-serif;
-      font-size: 18px;
+      font-size: 16px;
       margin: 0 auto;
       color: #424242; }
     .achive .achive_grid {
@@ -378,7 +516,7 @@
         .achive .achive_grid h3 .red_text {
           color: #bd2739; }
         .achive .achive_grid h3 .line_bg {
-          background-image: url(../images/rectangular_line.png);
+          background-image: url("../images/rectangular_line.png");
           background-repeat: no-repeat;
           background-position: bottom left;
           background-size: 80%; }
@@ -392,7 +530,70 @@
         line-height: 200%;
         color: #818181;
         font-size: 14px;
-        letter-spacing: 2px; } }
+        letter-spacing: 2px; }
+  .investment {
+    width: 720px;
+    height: 1700px;
+    background-color: white;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    overflow: hidden; }
+    .investment h2 {
+      font-size: 40px;
+      font-family: 'Noto Sans JP', sans-serif;
+      color: #13417c;
+      width: 480px;
+      letter-spacing: 2px;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 50px; }
+    .investment h2 + p {
+      width: 680px;
+      margin: 30px auto;
+      font-family: 'Noto Sans JP', sans-serif;
+      font-size: 16px; }
+    .investment .white-graph {
+      width: 680px;
+      margin: 0 auto;
+      margin-bottom: 80px;
+      margin-top: 25px; }
+      .investment .white-graph img {
+        width: 100%;
+        max-width: 800px;
+        height: auto; }
+    .investment .para_container {
+      width: 680px;
+      margin: 0 auto; }
+      .investment .para_container p {
+        margin-top: 15px;
+        margin-bottom: 30px;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-size: 16px; }
+    .investment .school_serv {
+      width: 680px;
+      margin: 0 auto; }
+      .investment .school_serv .school_logo {
+        width: 300px;
+        margin: 0 auto; }
+        .investment .school_serv .school_logo img {
+          width: 100%;
+          max-width: 300px;
+          height: auto; }
+      .investment .school_serv .gallery_pic {
+        width: 680px;
+        margin: 0 auto;
+        margin-top: 20px; }
+        .investment .school_serv .gallery_pic img {
+          width: 100%;
+          max-width: 800px;
+          height: auto; }
+      .investment .school_serv .gallery_pic + p {
+        font-family: 'Noto Sans JP', sans-serif;
+        font-size: 16px;
+        margin-top: 30px;
+        line-height: 200%; } }
 
 @media screen and (max-width: 500px) {
   .main_visuals {
@@ -403,8 +604,7 @@
       padding-top: 30px; }
       .main_visuals .mv_container .logo {
         width: 95%;
-        margin: 0 auto;
-        margin-bottom: 320px; }
+        margin: 0 auto 320px; }
       .main_visuals .mv_container .hero_text {
         color: white;
         text-align: center; }
@@ -466,21 +666,25 @@
       margin: 0 auto;
       text-align: center;
       margin-bottom: 30px; }
-    .achive .green-graph, .achive .likes_container {
+    .achive .green-graph,
+    .achive .likes_container {
       width: 95%;
       margin: 0 auto;
       margin-bottom: 25px;
       margin-top: 25px; }
-      .achive .green-graph img, .achive .likes_container img {
+      .achive .green-graph img,
+      .achive .likes_container img {
         width: 100%;
         max-width: 800px;
         height: auto; }
-    .achive .green-graph + p, .achive .likes_container + p {
+    .achive .green-graph + p,
+    .achive .likes_container + p {
       margin-top: 50px;
       margin-bottom: 50px;
       width: 95%;
       line-height: 40px; }
-      .achive .green-graph + p span, .achive .likes_container + p span {
+      .achive .green-graph + p span,
+      .achive .likes_container + p span {
         color: #bd2739;
         font-weight: 600; }
     .achive p {
@@ -506,7 +710,7 @@
         .achive .achive_grid h3 .red_text {
           color: #bd2739; }
         .achive .achive_grid h3 .line_bg {
-          background-image: url(../images/rectangular_line.png);
+          background-image: url("../images/rectangular_line.png");
           background-repeat: no-repeat;
           background-position: bottom left;
           background-size: 80%; }
@@ -520,7 +724,73 @@
         line-height: 200%;
         color: #818181;
         font-size: 12px;
-        letter-spacing: 2px; } }
+        letter-spacing: 2px; }
+  .investment {
+    width: 95%;
+    height: 1200px;
+    background-color: white;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    overflow: hidden; }
+    .investment h2 {
+      font-size: 32px;
+      font-family: 'Noto Sans JP', sans-serif;
+      color: #13417c;
+      width: 95%;
+      letter-spacing: 2px;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 50px; }
+    .investment h2 + p {
+      width: 90%;
+      margin: 30px auto;
+      font-family: 'Noto Sans JP', sans-serif;
+      font-size: 14px; }
+    .investment .white-graph {
+      width: 90%;
+      text-align: center;
+      margin: 0 auto;
+      margin-bottom: 80px;
+      margin-top: 25px; }
+      .investment .white-graph img {
+        width: 100%;
+        max-width: 90%;
+        height: auto; }
+    .investment .para_container {
+      width: 90%;
+      margin: 0 auto; }
+      .investment .para_container p {
+        margin-top: 15px;
+        margin-bottom: 30px;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-size: 14px; }
+    .investment .school_serv {
+      width: 90%;
+      margin: 0 auto; }
+      .investment .school_serv .school_logo {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center; }
+        .investment .school_serv .school_logo img {
+          width: 100%;
+          max-width: 60%;
+          height: auto; }
+      .investment .school_serv .gallery_pic {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 20px; }
+        .investment .school_serv .gallery_pic img {
+          width: 100%;
+          max-width: 100%;
+          height: auto; }
+      .investment .school_serv .gallery_pic + p {
+        font-family: 'Noto Sans JP', sans-serif;
+        font-size: 16px;
+        margin-top: 30px;
+        line-height: 200%; } }
 
 * {
   margin: 0;
