@@ -193,8 +193,7 @@
           height: auto; }
       .investment .school_serv .gallery_pic {
         width: 800px;
-        margin: 0 auto;
-        margin-top: 20px; }
+        margin: 20px auto 0; }
         .investment .school_serv .gallery_pic img {
           width: 100%;
           max-width: 800px;
@@ -268,7 +267,7 @@
         .about .inner-01_about .text span {
           color: #bd2739; }
       .about .inner-01_about .img_bg {
-        background-image: url(../images/lady_des.png);
+        background-image: url("../images/lady_des.png");
         background-repeat: no-repeat; }
     .about .checklist {
       width: 700px;
@@ -286,7 +285,7 @@
         height: 60px;
         padding: 15px;
         background: #f8f8f8;
-        box-shadow: 0px 2px 2px 1px #ccc; }
+        box-shadow: 0 2px 2px 1px #ccc; }
         .about .checklist li img {
           width: 60%; }
         .about .checklist li p > span {
@@ -296,7 +295,99 @@
       margin: 0 auto;
       font-family: 'Noto Sans JP', sans-serif;
       font-size: 18px;
-      color: #b1b1b1; } }
+      color: #b1b1b1; }
+  .experience {
+    width: 1024px;
+    height: 1400px;
+    background-color: white;
+    margin: 50px auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    overflow: hidden; }
+    .experience .school_logo {
+      width: 300px;
+      margin: 30px auto; }
+      .experience .school_logo img {
+        width: 100%;
+        max-width: 300px;
+        height: auto; }
+    .experience h2 {
+      font-size: 40px;
+      font-family: 'Noto Sans JP', sans-serif;
+      color: #13417c;
+      width: 770px;
+      letter-spacing: 2px;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 50px; }
+    .experience .news_letter {
+      width: 700px;
+      margin: 0 auto;
+      background-color: #f8f8f8;
+      padding: 90px;
+      box-shadow: 0 3px 2px 1px #ccc;
+      margin-bottom: 50px; }
+      .experience .news_letter .lable {
+        margin-bottom: 10px; }
+      .experience .news_letter .lable > span {
+        font-size: 12px; }
+      .experience .news_letter input {
+        width: 500px;
+        height: 60px;
+        padding-left: 20px;
+        margin-bottom: 30px; }
+      .experience .news_letter ::placeholder {
+        color: #dddddd;
+        font-size: 18px;
+        font-family: 'Noto Sans JP', sans-serif;
+        /* Firefox */ }
+      .experience .news_letter :-ms-input-placeholder {
+        /* Internet Explorer 10-11 */
+        color: #dddddd;
+        font-size: 18px;
+        font-family: 'Noto Sans JP', sans-serif; }
+      .experience .news_letter ::-ms-input-placeholder {
+        /* Microsoft Edge */
+        color: #dddddd;
+        font-size: 18px;
+        font-family: 'Noto Sans JP', sans-serif; }
+      .experience .news_letter p {
+        font-size: 18px;
+        font-family: 'Noto Sans JP', sans-serif;
+        line-height: 200%; }
+        .experience .news_letter p span {
+          color: #bd2739; }
+      .experience .news_letter .yellow_btn {
+        width: 400px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 30px; }
+        .experience .news_letter .yellow_btn img {
+          width: 100%;
+          max-width: 400px;
+          height: auto; }
+    .experience .yellow_box {
+      width: 700px;
+      margin: 0 auto;
+      border: 3px solid #ffdb12;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      padding-left: 70px;
+      padding-right: 70px; }
+      .experience .yellow_box h3 {
+        text-align: center;
+        font-size: 24px;
+        font-family: 'Noto Sans JP', sans-serif;
+        color: #13417c;
+        margin-bottom: 20px; }
+        .experience .yellow_box h3 span {
+          font-size: 14px;
+          color: #b1b1b1; }
+      .experience .yellow_box li {
+        margin-bottom: 10px;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-size: 16px; } }
 
 @media screen and (min-width: 769px) and (max-width: 1200px) {
   .main_visuals {
@@ -481,8 +572,7 @@
           height: auto; }
       .investment .school_serv .gallery_pic {
         width: 800px;
-        margin: 0 auto;
-        margin-top: 20px; }
+        margin: 20px auto 0; }
         .investment .school_serv .gallery_pic img {
           width: 100%;
           max-width: 800px;
@@ -556,7 +646,7 @@
         .about .inner-01_about .text span {
           color: #bd2739; }
       .about .inner-01_about .img_bg {
-        background-image: url(../images/lady_des.png);
+        background-image: url("../images/lady_des.png");
         background-repeat: no-repeat; }
     .about .checklist {
       width: 700px;
@@ -574,7 +664,7 @@
         height: 60px;
         padding: 15px;
         background: #f8f8f8;
-        box-shadow: 0px 2px 2px 1px #ccc; }
+        box-shadow: 0 2px 2px 1px #ccc; }
         .about .checklist li img {
           width: 60%; }
         .about .checklist li p > span {
@@ -584,7 +674,99 @@
       margin: 0 auto;
       font-family: 'Noto Sans JP', sans-serif;
       font-size: 18px;
-      color: #b1b1b1; } }
+      color: #b1b1b1; }
+  .experience {
+    width: 960px;
+    height: 1400px;
+    background-color: white;
+    margin: 50px auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    overflow: hidden; }
+    .experience .school_logo {
+      width: 300px;
+      margin: 30px auto; }
+      .experience .school_logo img {
+        width: 100%;
+        max-width: 300px;
+        height: auto; }
+    .experience h2 {
+      font-size: 40px;
+      font-family: 'Noto Sans JP', sans-serif;
+      color: #13417c;
+      width: 770px;
+      letter-spacing: 2px;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 50px; }
+    .experience .news_letter {
+      width: 700px;
+      margin: 0 auto;
+      background-color: #f8f8f8;
+      padding: 90px;
+      box-shadow: 0 3px 2px 1px #ccc;
+      margin-bottom: 50px; }
+      .experience .news_letter .lable {
+        margin-bottom: 10px; }
+      .experience .news_letter .lable > span {
+        font-size: 12px; }
+      .experience .news_letter input {
+        width: 500px;
+        height: 60px;
+        padding-left: 20px;
+        margin-bottom: 30px; }
+      .experience .news_letter ::placeholder {
+        color: #dddddd;
+        font-size: 18px;
+        font-family: 'Noto Sans JP', sans-serif;
+        /* Firefox */ }
+      .experience .news_letter :-ms-input-placeholder {
+        /* Internet Explorer 10-11 */
+        color: #dddddd;
+        font-size: 18px;
+        font-family: 'Noto Sans JP', sans-serif; }
+      .experience .news_letter ::-ms-input-placeholder {
+        /* Microsoft Edge */
+        color: #dddddd;
+        font-size: 18px;
+        font-family: 'Noto Sans JP', sans-serif; }
+      .experience .news_letter p {
+        font-size: 18px;
+        font-family: 'Noto Sans JP', sans-serif;
+        line-height: 200%; }
+        .experience .news_letter p span {
+          color: #bd2739; }
+      .experience .news_letter .yellow_btn {
+        width: 400px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 30px; }
+        .experience .news_letter .yellow_btn img {
+          width: 100%;
+          max-width: 400px;
+          height: auto; }
+    .experience .yellow_box {
+      width: 700px;
+      margin: 0 auto;
+      border: 3px solid #ffdb12;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      padding-left: 70px;
+      padding-right: 70px; }
+      .experience .yellow_box h3 {
+        text-align: center;
+        font-size: 24px;
+        font-family: 'Noto Sans JP', sans-serif;
+        color: #13417c;
+        margin-bottom: 20px; }
+        .experience .yellow_box h3 span {
+          font-size: 14px;
+          color: #b1b1b1; }
+      .experience .yellow_box li {
+        margin-bottom: 10px;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-size: 16px; } }
 
 @media screen and (min-width: 501px) and (max-width: 768px) {
   .main_visuals {
@@ -769,8 +951,7 @@
           height: auto; }
       .investment .school_serv .gallery_pic {
         width: 680px;
-        margin: 0 auto;
-        margin-top: 20px; }
+        margin: 20px auto 0; }
         .investment .school_serv .gallery_pic img {
           width: 100%;
           max-width: 800px;
@@ -844,7 +1025,7 @@
         .about .inner-01_about .text span {
           color: #bd2739; }
       .about .inner-01_about .img_bg {
-        background-image: url(../images/lady_des.png);
+        background-image: url("../images/lady_des.png");
         background-repeat: no-repeat;
         background-position: left center;
         background-size: 130%; }
@@ -864,7 +1045,7 @@
         height: 60px;
         padding: 15px;
         background: #f8f8f8;
-        box-shadow: 0px 2px 2px 1px #ccc; }
+        box-shadow: 0 2px 2px 1px #ccc; }
         .about .checklist li img {
           width: 60%; }
         .about .checklist li p > span {
@@ -874,7 +1055,99 @@
       margin: 0 auto;
       font-family: 'Noto Sans JP', sans-serif;
       font-size: 18px;
-      color: #b1b1b1; } }
+      color: #b1b1b1; }
+  .experience {
+    width: 720px;
+    height: 1400px;
+    background-color: white;
+    margin: 50px auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    overflow: hidden; }
+    .experience .school_logo {
+      width: 300px;
+      margin: 30px auto; }
+      .experience .school_logo img {
+        width: 100%;
+        max-width: 300px;
+        height: auto; }
+    .experience h2 {
+      font-size: 32px;
+      font-family: 'Noto Sans JP', sans-serif;
+      color: #13417c;
+      width: 650px;
+      letter-spacing: 2px;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 50px; }
+    .experience .news_letter {
+      width: 550px;
+      margin: 0 auto;
+      background-color: #f8f8f8;
+      padding: 80px;
+      box-shadow: 0 3px 2px 1px #ccc;
+      margin-bottom: 50px; }
+      .experience .news_letter .lable {
+        margin-bottom: 10px; }
+      .experience .news_letter .lable > span {
+        font-size: 12px; }
+      .experience .news_letter input {
+        width: 400px;
+        height: 60px;
+        padding-left: 20px;
+        margin-bottom: 30px; }
+      .experience .news_letter ::placeholder {
+        color: #dddddd;
+        font-size: 18px;
+        font-family: 'Noto Sans JP', sans-serif;
+        /* Firefox */ }
+      .experience .news_letter :-ms-input-placeholder {
+        /* Internet Explorer 10-11 */
+        color: #dddddd;
+        font-size: 18px;
+        font-family: 'Noto Sans JP', sans-serif; }
+      .experience .news_letter ::-ms-input-placeholder {
+        /* Microsoft Edge */
+        color: #dddddd;
+        font-size: 18px;
+        font-family: 'Noto Sans JP', sans-serif; }
+      .experience .news_letter p {
+        font-size: 18px;
+        font-family: 'Noto Sans JP', sans-serif;
+        line-height: 200%; }
+        .experience .news_letter p span {
+          color: #bd2739; }
+      .experience .news_letter .yellow_btn {
+        width: 400px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 30px; }
+        .experience .news_letter .yellow_btn img {
+          width: 100%;
+          max-width: 400px;
+          height: auto; }
+    .experience .yellow_box {
+      width: 550px;
+      margin: 0 auto;
+      border: 3px solid #ffdb12;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      padding-left: 50px;
+      padding-right: 50px; }
+      .experience .yellow_box h3 {
+        text-align: center;
+        font-size: 24px;
+        font-family: 'Noto Sans JP', sans-serif;
+        color: #13417c;
+        margin-bottom: 20px; }
+        .experience .yellow_box h3 span {
+          font-size: 14px;
+          color: #b1b1b1; }
+      .experience .yellow_box li {
+        margin-bottom: 10px;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-size: 16px; } }
 
 @media screen and (max-width: 500px) {
   .main_visuals {
@@ -1061,8 +1334,7 @@
       .investment .school_serv .gallery_pic {
         width: 100%;
         text-align: center;
-        margin: 0 auto;
-        margin-top: 20px; }
+        margin: 20px auto 0; }
         .investment .school_serv .gallery_pic img {
           width: 100%;
           max-width: 100%;
@@ -1141,7 +1413,7 @@
         .about .inner-01_about .text span {
           color: #bd2739; }
       .about .inner-01_about .img_bg {
-        background-image: url(../images/lady_des.png);
+        background-image: url("../images/lady_des.png");
         background-repeat: no-repeat;
         background-position: left center;
         background-size: 130%; }
@@ -1161,7 +1433,7 @@
         height: 40px;
         padding: 8px;
         background: #f8f8f8;
-        box-shadow: 0px 2px 2px 1px #ccc; }
+        box-shadow: 0 2px 2px 1px #ccc; }
         .about .checklist li img {
           width: 50%; }
         .about .checklist li p > span {
@@ -1171,7 +1443,99 @@
       margin: 0 auto;
       font-family: 'Noto Sans JP', sans-serif;
       font-size: 14px;
-      color: #b1b1b1; } }
+      color: #b1b1b1; }
+  .experience {
+    width: 95%;
+    height: 1400px;
+    background-color: white;
+    margin: 50px auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    overflow: hidden; }
+    .experience .school_logo {
+      width: 250px;
+      margin: 30px auto; }
+      .experience .school_logo img {
+        width: 100%;
+        max-width: 250px;
+        height: auto; }
+    .experience h2 {
+      font-size: 32px;
+      font-family: 'Noto Sans JP', sans-serif;
+      color: #13417c;
+      width: 90%;
+      letter-spacing: 2px;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 50px; }
+    .experience .news_letter {
+      width: 90%;
+      margin: 0 auto;
+      background-color: #f8f8f8;
+      padding: 30px;
+      box-shadow: 0 3px 2px 1px #ccc;
+      margin-bottom: 50px; }
+      .experience .news_letter .lable {
+        margin-bottom: 10px; }
+      .experience .news_letter .lable > span {
+        font-size: 12px; }
+      .experience .news_letter input {
+        width: 98%;
+        height: 60px;
+        padding-left: 20px;
+        margin-bottom: 30px; }
+      .experience .news_letter ::placeholder {
+        color: #dddddd;
+        font-size: 16px;
+        font-family: 'Noto Sans JP', sans-serif;
+        /* Firefox */ }
+      .experience .news_letter :-ms-input-placeholder {
+        /* Internet Explorer 10-11 */
+        color: #dddddd;
+        font-size: 16px;
+        font-family: 'Noto Sans JP', sans-serif; }
+      .experience .news_letter ::-ms-input-placeholder {
+        /* Microsoft Edge */
+        color: #dddddd;
+        font-size: 16px;
+        font-family: 'Noto Sans JP', sans-serif; }
+      .experience .news_letter p {
+        font-size: 16px;
+        font-family: 'Noto Sans JP', sans-serif;
+        line-height: 200%; }
+        .experience .news_letter p span {
+          color: #bd2739; }
+      .experience .news_letter .yellow_btn {
+        width: 95%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 30px; }
+        .experience .news_letter .yellow_btn img {
+          width: 100%;
+          max-width: 95%;
+          height: auto; }
+    .experience .yellow_box {
+      width: 90%;
+      margin: 0 auto;
+      border: 3px solid #ffdb12;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      padding-left: 40px;
+      padding-right: 40px; }
+      .experience .yellow_box h3 {
+        text-align: center;
+        font-size: 24px;
+        font-family: 'Noto Sans JP', sans-serif;
+        color: #13417c;
+        margin-bottom: 20px; }
+        .experience .yellow_box h3 span {
+          font-size: 14px;
+          color: #b1b1b1; }
+      .experience .yellow_box li {
+        margin-bottom: 10px;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-size: 14px; } }
 
 * {
   margin: 0;
