@@ -2519,6 +2519,7 @@
         grid-template-columns: 20% 80%;
         height: 75px;
         padding: 15px;
+        align-items: center;
         padding-bottom: 30px;
         background: #f8f8f8;
         box-shadow: 0 2px 2px 1px #ccc;
