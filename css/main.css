@@ -361,8 +361,7 @@
       .experience .news_letter .yellow_btn {
         width: 400px;
         display: block;
-        margin: 0 auto;
-        margin-top: 30px; }
+        margin: 30px auto 0; }
         .experience .news_letter .yellow_btn img {
           width: 100%;
           max-width: 400px;
@@ -371,10 +370,7 @@
       width: 700px;
       margin: 0 auto;
       border: 3px solid #ffdb12;
-      padding-top: 40px;
-      padding-bottom: 40px;
-      padding-left: 70px;
-      padding-right: 70px; }
+      padding: 40px 70px; }
       .experience .yellow_box h3 {
         text-align: center;
         font-size: 24px;
@@ -424,7 +420,224 @@
       font-size: 18px;
       width: 700px;
       margin: 0 auto;
-      line-height: 200%; } }
+      line-height: 200%; }
+  .lecturer {
+    width: 1024px;
+    height: 2050px;
+    background-color: white;
+    margin: 50px auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    overflow: hidden; }
+    .lecturer h2 {
+      font-size: 40px;
+      font-family: 'Noto Sans JP', sans-serif;
+      color: #13417c;
+      width: 770px;
+      letter-spacing: 2px;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 50px; }
+    .lecturer .pres_img {
+      width: 800px;
+      margin: 30px auto; }
+      .lecturer .pres_img img {
+        width: 100%;
+        max-width: 800px; }
+    .lecturer .presenter_cont {
+      width: 800px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-rows: 300px 300px 300px 500px;
+      grid-row-gap: 30px; }
+      .lecturer .presenter_cont .inner_presen {
+        width: 800px;
+        background-color: #f8f8f8;
+        display: grid;
+        grid-template-columns: 300px 500px;
+        border-radius: 5px; }
+        .lecturer .presenter_cont .inner_presen div {
+          width: 200px;
+          margin: auto;
+          text-align: center; }
+          .lecturer .presenter_cont .inner_presen div img {
+            width: 100%;
+            max-width: 180px; }
+          .lecturer .presenter_cont .inner_presen div h4 {
+            margin-top: 20px;
+            height: 40px;
+            font-family: 'Noto Sans JP', sans-serif;
+            letter-spacing: 1px; }
+            .lecturer .presenter_cont .inner_presen div h4 img {
+              width: 100%;
+              max-width: 30px;
+              margin-right: 10px;
+              vertical-align: middle; }
+        .lecturer .presenter_cont .inner_presen p {
+          font-size: 16px;
+          width: 380px;
+          margin: auto;
+          line-height: 200%;
+          font-family: 'Noto Sans JP', sans-serif; }
+      .lecturer .presenter_cont .inner_presen_bg {
+        width: 800px;
+        background-color: #f8f8f8;
+        border-radius: 5px;
+        padding: 30px;
+        padding-top: 45px;
+        padding-left: 35px; }
+        .lecturer .presenter_cont .inner_presen_bg .school_intro {
+          width: 800px;
+          display: grid;
+          grid-template-columns: 300px 500px;
+          align-items: center;
+          padding-left: 15px;
+          margin-bottom: 60px; }
+          .lecturer .presenter_cont .inner_presen_bg .school_intro .inner_si {
+            font-family: 'Noto Sans JP', sans-serif; }
+            .lecturer .presenter_cont .inner_presen_bg .school_intro .inner_si img {
+              width: 100%;
+              max-width: 200px; }
+            .lecturer .presenter_cont .inner_presen_bg .school_intro .inner_si h3 {
+              width: 380px;
+              margin-bottom: 10px; }
+            .lecturer .presenter_cont .inner_presen_bg .school_intro .inner_si p {
+              width: 400px;
+              line-height: 200%; }
+        .lecturer .presenter_cont .inner_presen_bg .yellow_btn {
+          width: 500px;
+          display: block;
+          margin: 0 auto; }
+          .lecturer .presenter_cont .inner_presen_bg .yellow_btn img {
+            width: 100%;
+            max-width: 500px;
+            height: auto; }
+  .voice {
+    width: 1024px;
+    height: 1950px;
+    background-color: white;
+    margin: 50px auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    overflow: hidden; }
+    .voice h2 {
+      font-size: 40px;
+      font-family: 'Noto Sans JP', sans-serif;
+      color: #13417c;
+      width: 770px;
+      letter-spacing: 2px;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 50px; }
+    .voice .group_peop {
+      width: 800px;
+      margin: 30px auto; }
+      .voice .group_peop img {
+        width: 100%;
+        max-width: 800px; }
+    .voice .commnets_container {
+      width: 750px;
+      height: 350px;
+      margin: 50px auto;
+      display: grid;
+      grid-template-rows: repeat(4, 50px);
+      grid-row-gap: 40px; }
+      .voice .commnets_container li {
+        list-style: none;
+        text-align: center; }
+        .voice .commnets_container li img {
+          width: 100%;
+          max-width: 650px; }
+    .voice .inner_voice {
+      width: 800px;
+      margin: 0 auto; }
+      .voice .inner_voice h3 {
+        font-size: 32px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-family: 'Noto Sans JP', sans-serif; }
+      .voice .inner_voice p {
+        font-size: 18px;
+        font-family: 'Noto Sans JP', sans-serif;
+        line-height: 200%;
+        letter-spacing: 1px; }
+        .voice .inner_voice p span {
+          font-weight: 600; }
+    .voice .yellow_btn {
+      width: 500px;
+      display: block;
+      margin: 0 auto;
+      margin-top: 50px; }
+      .voice .yellow_btn img {
+        width: 100%;
+        max-width: 500px;
+        height: auto; }
+  .social_ga {
+    width: 1024px;
+    height: 1200px;
+    background-color: white;
+    margin: 50px auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    overflow: hidden; }
+    .social_ga h2 {
+      font-size: 40px;
+      font-family: 'Noto Sans JP', sans-serif;
+      color: #13417c;
+      width: 800px;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 50px; }
+    .social_ga .soci_img {
+      width: 800px;
+      margin: 30px auto; }
+      .social_ga .soci_img img {
+        width: 100%;
+        max-width: 800px; }
+    .social_ga .soci_img + p {
+      width: 800px;
+      margin: 30px auto;
+      font-family: 'Noto Sans JP', sans-serif;
+      font-size: 18px;
+      line-height: 200%; }
+      .social_ga .soci_img + p span {
+        font-weight: 500; }
+      .social_ga .soci_img + p .blue {
+        color: #13417c; }
+      .social_ga .soci_img + p .red {
+        color: #bd2739; }
+    .social_ga .schedule_list {
+      width: 700px;
+      margin: 0 auto; }
+      .social_ga .schedule_list li {
+        font-family: 'Noto Sans JP', sans-serif;
+        font-size: 18px;
+        margin-bottom: 30px;
+        list-style: none;
+        display: grid;
+        grid-template-columns: 60px 550px;
+        height: 60px;
+        padding: 15px;
+        background: #f8f8f8;
+        box-shadow: 0 2px 2px 1px #ccc;
+        letter-spacing: 2px;
+        padding-left: 30px; }
+        .social_ga .schedule_list li span {
+          color: #13417c;
+          font-weight: 600; }
+        .social_ga .schedule_list li img {
+          width: 100%;
+          max-width: 50%; }
+    .social_ga .schedule_list + p {
+      font-family: 'Noto Sans JP', sans-serif;
+      font-size: 18px;
+      width: 700px;
+      margin: 30px auto;
+      color: #b1b1b1; } }
 
 @media screen and (min-width: 769px) and (max-width: 1200px) {
   .main_visuals {
@@ -777,8 +990,7 @@
       .experience .news_letter .yellow_btn {
         width: 400px;
         display: block;
-        margin: 0 auto;
-        margin-top: 30px; }
+        margin: 30px auto 0; }
         .experience .news_letter .yellow_btn img {
           width: 100%;
           max-width: 400px;
@@ -787,10 +999,7 @@
       width: 700px;
       margin: 0 auto;
       border: 3px solid #ffdb12;
-      padding-top: 40px;
-      padding-bottom: 40px;
-      padding-left: 70px;
-      padding-right: 70px; }
+      padding: 40px 70px; }
       .experience .yellow_box h3 {
         text-align: center;
         font-size: 24px;
@@ -840,7 +1049,223 @@
       font-size: 18px;
       width: 700px;
       margin: 0 auto;
-      line-height: 200%; } }
+      line-height: 200%; }
+  .lecturer {
+    width: 960px;
+    height: 2050px;
+    background-color: white;
+    margin: 50px auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    overflow: hidden; }
+    .lecturer h2 {
+      font-size: 40px;
+      font-family: 'Noto Sans JP', sans-serif;
+      color: #13417c;
+      width: 770px;
+      letter-spacing: 2px;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 50px; }
+    .lecturer .pres_img {
+      width: 800px;
+      margin: 30px auto; }
+      .lecturer .pres_img img {
+        width: 100%;
+        max-width: 800px; }
+    .lecturer .presenter_cont {
+      width: 800px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-rows: 300px 300px 300px 500px;
+      grid-row-gap: 30px; }
+      .lecturer .presenter_cont .inner_presen {
+        width: 800px;
+        background-color: #f8f8f8;
+        display: grid;
+        grid-template-columns: 300px 500px;
+        border-radius: 5px; }
+        .lecturer .presenter_cont .inner_presen div {
+          width: 200px;
+          margin: auto;
+          text-align: center; }
+          .lecturer .presenter_cont .inner_presen div img {
+            width: 100%;
+            max-width: 180px; }
+          .lecturer .presenter_cont .inner_presen div h4 {
+            margin-top: 20px;
+            height: 40px;
+            font-family: 'Noto Sans JP', sans-serif;
+            letter-spacing: 1px; }
+            .lecturer .presenter_cont .inner_presen div h4 img {
+              width: 100%;
+              max-width: 30px;
+              margin-right: 10px;
+              vertical-align: middle; }
+        .lecturer .presenter_cont .inner_presen p {
+          font-size: 16px;
+          width: 380px;
+          margin: auto;
+          line-height: 200%;
+          font-family: 'Noto Sans JP', sans-serif; }
+      .lecturer .presenter_cont .inner_presen_bg {
+        width: 800px;
+        background-color: #f8f8f8;
+        border-radius: 5px;
+        padding: 30px;
+        padding-left: 40px; }
+        .lecturer .presenter_cont .inner_presen_bg .school_intro {
+          width: 800px;
+          display: grid;
+          grid-template-columns: 300px 500px;
+          align-items: center;
+          padding-left: 15px;
+          margin-bottom: 60px; }
+          .lecturer .presenter_cont .inner_presen_bg .school_intro .inner_si {
+            font-family: 'Noto Sans JP', sans-serif; }
+            .lecturer .presenter_cont .inner_presen_bg .school_intro .inner_si img {
+              width: 100%;
+              max-width: 200px; }
+            .lecturer .presenter_cont .inner_presen_bg .school_intro .inner_si h3 {
+              width: 380px;
+              margin-bottom: 10px; }
+            .lecturer .presenter_cont .inner_presen_bg .school_intro .inner_si p {
+              width: 400px;
+              line-height: 200%; }
+        .lecturer .presenter_cont .inner_presen_bg .yellow_btn {
+          width: 500px;
+          display: block;
+          margin: 0 auto; }
+          .lecturer .presenter_cont .inner_presen_bg .yellow_btn img {
+            width: 100%;
+            max-width: 500px;
+            height: auto; }
+  .voice {
+    width: 960px;
+    height: 1950px;
+    background-color: white;
+    margin: 50px auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    overflow: hidden; }
+    .voice h2 {
+      font-size: 40px;
+      font-family: 'Noto Sans JP', sans-serif;
+      color: #13417c;
+      width: 770px;
+      letter-spacing: 2px;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 50px; }
+    .voice .group_peop {
+      width: 800px;
+      margin: 30px auto; }
+      .voice .group_peop img {
+        width: 100%;
+        max-width: 800px; }
+    .voice .commnets_container {
+      width: 750px;
+      height: 350px;
+      margin: 50px auto;
+      display: grid;
+      grid-template-rows: repeat(4, 50px);
+      grid-row-gap: 40px; }
+      .voice .commnets_container li {
+        list-style: none;
+        text-align: center; }
+        .voice .commnets_container li img {
+          width: 100%;
+          max-width: 650px; }
+    .voice .inner_voice {
+      width: 800px;
+      margin: 0 auto; }
+      .voice .inner_voice h3 {
+        font-size: 32px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-family: 'Noto Sans JP', sans-serif; }
+      .voice .inner_voice p {
+        font-size: 18px;
+        font-family: 'Noto Sans JP', sans-serif;
+        line-height: 200%;
+        letter-spacing: 1px; }
+        .voice .inner_voice p span {
+          font-weight: 600; }
+    .voice .yellow_btn {
+      width: 500px;
+      display: block;
+      margin: 0 auto;
+      margin-top: 50px; }
+      .voice .yellow_btn img {
+        width: 100%;
+        max-width: 500px;
+        height: auto; }
+  .social_ga {
+    width: 960px;
+    height: 1200px;
+    background-color: white;
+    margin: 50px auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    overflow: hidden; }
+    .social_ga h2 {
+      font-size: 40px;
+      font-family: 'Noto Sans JP', sans-serif;
+      color: #13417c;
+      width: 800px;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 50px; }
+    .social_ga .soci_img {
+      width: 800px;
+      margin: 30px auto; }
+      .social_ga .soci_img img {
+        width: 100%;
+        max-width: 800px; }
+    .social_ga .soci_img + p {
+      width: 800px;
+      margin: 30px auto;
+      font-family: 'Noto Sans JP', sans-serif;
+      font-size: 18px;
+      line-height: 200%; }
+      .social_ga .soci_img + p span {
+        font-weight: 500; }
+      .social_ga .soci_img + p .blue {
+        color: #13417c; }
+      .social_ga .soci_img + p .red {
+        color: #bd2739; }
+    .social_ga .schedule_list {
+      width: 700px;
+      margin: 0 auto; }
+      .social_ga .schedule_list li {
+        font-family: 'Noto Sans JP', sans-serif;
+        font-size: 18px;
+        margin-bottom: 30px;
+        list-style: none;
+        display: grid;
+        grid-template-columns: 60px 550px;
+        height: 60px;
+        padding: 15px;
+        background: #f8f8f8;
+        box-shadow: 0 2px 2px 1px #ccc;
+        letter-spacing: 2px;
+        padding-left: 30px; }
+        .social_ga .schedule_list li span {
+          color: #13417c;
+          font-weight: 600; }
+        .social_ga .schedule_list li img {
+          width: 100%;
+          max-width: 50%; }
+    .social_ga .schedule_list + p {
+      font-family: 'Noto Sans JP', sans-serif;
+      font-size: 18px;
+      width: 700px;
+      margin: 30px auto;
+      color: #b1b1b1; } }
 
 @media screen and (min-width: 501px) and (max-width: 768px) {
   .main_visuals {
@@ -1195,8 +1620,7 @@
       .experience .news_letter .yellow_btn {
         width: 400px;
         display: block;
-        margin: 0 auto;
-        margin-top: 30px; }
+        margin: 30px auto 0; }
         .experience .news_letter .yellow_btn img {
           width: 100%;
           max-width: 400px;
@@ -1205,10 +1629,7 @@
       width: 550px;
       margin: 0 auto;
       border: 3px solid #ffdb12;
-      padding-top: 40px;
-      padding-bottom: 40px;
-      padding-left: 50px;
-      padding-right: 50px; }
+      padding: 40px 50px; }
       .experience .yellow_box h3 {
         text-align: center;
         font-size: 24px;
@@ -1258,7 +1679,221 @@
       font-size: 18px;
       width: 600px;
       margin: 0 auto;
-      line-height: 200%; } }
+      line-height: 200%; }
+  .lecturer {
+    width: 720px;
+    height: 1950px;
+    background-color: white;
+    margin: 50px auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    overflow: hidden; }
+    .lecturer h2 {
+      font-size: 32px;
+      font-family: 'Noto Sans JP', sans-serif;
+      color: #13417c;
+      width: 600px;
+      letter-spacing: 2px;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 50px; }
+    .lecturer .pres_img {
+      width: 600px;
+      margin: 30px auto; }
+      .lecturer .pres_img img {
+        width: 100%;
+        max-width: 600px; }
+    .lecturer .presenter_cont {
+      width: 600px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-rows: 300px 300px 300px 550px;
+      grid-row-gap: 30px; }
+      .lecturer .presenter_cont .inner_presen {
+        width: 600px;
+        background-color: #f8f8f8;
+        display: grid;
+        grid-template-columns: 200px 400px;
+        border-radius: 5px; }
+        .lecturer .presenter_cont .inner_presen div {
+          width: 200px;
+          margin: auto;
+          text-align: center; }
+          .lecturer .presenter_cont .inner_presen div img {
+            width: 100%;
+            max-width: 180px; }
+          .lecturer .presenter_cont .inner_presen div h4 {
+            margin-top: 20px;
+            height: 40px;
+            font-family: 'Noto Sans JP', sans-serif;
+            letter-spacing: 1px; }
+            .lecturer .presenter_cont .inner_presen div h4 img {
+              width: 100%;
+              max-width: 30px;
+              margin-right: 10px;
+              vertical-align: middle; }
+        .lecturer .presenter_cont .inner_presen p {
+          font-size: 16px;
+          width: 380px;
+          margin: auto;
+          line-height: 200%;
+          font-family: 'Noto Sans JP', sans-serif; }
+      .lecturer .presenter_cont .inner_presen_bg {
+        width: 600px;
+        background-color: #f8f8f8;
+        border-radius: 5px;
+        padding: 30px; }
+        .lecturer .presenter_cont .inner_presen_bg .school_intro {
+          width: 600px;
+          display: grid;
+          grid-template-columns: 200px 400px;
+          align-items: center;
+          margin-bottom: 60px; }
+          .lecturer .presenter_cont .inner_presen_bg .school_intro .inner_si {
+            font-family: 'Noto Sans JP', sans-serif; }
+            .lecturer .presenter_cont .inner_presen_bg .school_intro .inner_si img {
+              width: 100%;
+              max-width: 150px; }
+            .lecturer .presenter_cont .inner_presen_bg .school_intro .inner_si h3 {
+              width: 380px;
+              margin-bottom: 10px; }
+            .lecturer .presenter_cont .inner_presen_bg .school_intro .inner_si p {
+              width: 350px;
+              line-height: 200%; }
+        .lecturer .presenter_cont .inner_presen_bg .yellow_btn {
+          width: 500px;
+          display: block;
+          margin: 0 auto; }
+          .lecturer .presenter_cont .inner_presen_bg .yellow_btn img {
+            width: 100%;
+            max-width: 500px;
+            height: auto; }
+  .voice {
+    width: 720px;
+    height: 1950px;
+    background-color: white;
+    margin: 50px auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    overflow: hidden; }
+    .voice h2 {
+      font-size: 40px;
+      font-family: 'Noto Sans JP', sans-serif;
+      color: #13417c;
+      width: 600px;
+      letter-spacing: 2px;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 50px; }
+    .voice .group_peop {
+      width: 650px;
+      margin: 30px auto; }
+      .voice .group_peop img {
+        width: 100%;
+        max-width: 650px; }
+    .voice .commnets_container {
+      width: 600px;
+      height: 350px;
+      margin: 50px auto;
+      display: grid;
+      grid-template-rows: repeat(4, 50px);
+      grid-row-gap: 40px; }
+      .voice .commnets_container li {
+        list-style: none;
+        text-align: center; }
+        .voice .commnets_container li img {
+          width: 100%;
+          max-width: 650px; }
+    .voice .inner_voice {
+      width: 650px;
+      margin: 0 auto; }
+      .voice .inner_voice h3 {
+        font-size: 28px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-family: 'Noto Sans JP', sans-serif; }
+      .voice .inner_voice p {
+        font-size: 18px;
+        font-family: 'Noto Sans JP', sans-serif;
+        line-height: 200%;
+        letter-spacing: 1px; }
+        .voice .inner_voice p span {
+          font-weight: 600; }
+    .voice .yellow_btn {
+      width: 350px;
+      display: block;
+      margin: 0 auto;
+      margin-top: 50px; }
+      .voice .yellow_btn img {
+        width: 100%;
+        max-width: 350px;
+        height: auto; }
+  .social_ga {
+    width: 720px;
+    height: 1200px;
+    background-color: white;
+    margin: 50px auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    overflow: hidden; }
+    .social_ga h2 {
+      font-size: 32px;
+      font-family: 'Noto Sans JP', sans-serif;
+      color: #13417c;
+      width: 650px;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 50px; }
+    .social_ga .soci_img {
+      width: 650px;
+      margin: 30px auto; }
+      .social_ga .soci_img img {
+        width: 100%;
+        max-width: 800px; }
+    .social_ga .soci_img + p {
+      width: 650px;
+      margin: 30px auto;
+      font-family: 'Noto Sans JP', sans-serif;
+      font-size: 18px;
+      line-height: 200%; }
+      .social_ga .soci_img + p span {
+        font-weight: 600; }
+      .social_ga .soci_img + p .blue {
+        color: #13417c; }
+      .social_ga .soci_img + p .red {
+        color: #bd2739; }
+    .social_ga .schedule_list {
+      width: 650px;
+      margin: 0 auto; }
+      .social_ga .schedule_list li {
+        font-family: 'Noto Sans JP', sans-serif;
+        font-size: 18px;
+        margin-bottom: 30px;
+        list-style: none;
+        display: grid;
+        grid-template-columns: 60px 550px;
+        height: 60px;
+        padding: 15px;
+        background: #f8f8f8;
+        box-shadow: 0 2px 2px 1px #ccc;
+        letter-spacing: 2px;
+        padding-left: 30px; }
+        .social_ga .schedule_list li span {
+          color: #13417c;
+          font-weight: 600; }
+        .social_ga .schedule_list li img {
+          width: 100%;
+          max-width: 50%; }
+    .social_ga .schedule_list + p {
+      font-family: 'Noto Sans JP', sans-serif;
+      font-size: 18px;
+      width: 650px;
+      margin: 30px auto;
+      color: #b1b1b1; } }
 
 @media screen and (max-width: 500px) {
   .main_visuals {
@@ -1392,7 +2027,7 @@
         letter-spacing: 2px; }
   .investment {
     width: 95%;
-    height: 1200px;
+    height: 1330px;
     background-color: white;
     margin: 0 auto;
     padding-top: 30px;
@@ -1620,8 +2255,7 @@
       .experience .news_letter .yellow_btn {
         width: 95%;
         display: block;
-        margin: 0 auto;
-        margin-top: 30px; }
+        margin: 30px auto 0; }
         .experience .news_letter .yellow_btn img {
           width: 100%;
           max-width: 95%;
@@ -1630,10 +2264,7 @@
       width: 90%;
       margin: 0 auto;
       border: 3px solid #ffdb12;
-      padding-top: 40px;
-      padding-bottom: 40px;
-      padding-left: 40px;
-      padding-right: 40px; }
+      padding: 40px; }
       .experience .yellow_box h3 {
         text-align: center;
         font-size: 24px;
@@ -1683,7 +2314,228 @@
       font-size: 14px;
       width: 90%;
       margin: 0 auto;
-      line-height: 200%; } }
+      line-height: 200%; }
+  .lecturer {
+    width: 95%;
+    height: 2400px;
+    background-color: white;
+    margin: 50px auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    overflow: hidden; }
+    .lecturer h2 {
+      font-size: 30px;
+      font-family: 'Noto Sans JP', sans-serif;
+      color: #13417c;
+      width: 90%;
+      letter-spacing: 2px;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 20px; }
+    .lecturer .pres_img {
+      width: 90%;
+      margin: 20px auto; }
+      .lecturer .pres_img img {
+        width: 100%;
+        max-width: 100%; }
+    .lecturer .presenter_cont {
+      width: 90%;
+      margin: 0 auto;
+      display: grid;
+      grid-template-rows: 300px 300px 300px 550px;
+      grid-row-gap: 220px; }
+      .lecturer .presenter_cont .inner_presen {
+        padding-top: 30px;
+        height: 490px;
+        background-color: #f8f8f8;
+        display: grid;
+        grid-template-rows: 150px 400px;
+        border-radius: 5px; }
+        .lecturer .presenter_cont .inner_presen div {
+          width: 200px;
+          margin: auto;
+          text-align: center; }
+          .lecturer .presenter_cont .inner_presen div img {
+            width: 100%;
+            max-width: 180px; }
+          .lecturer .presenter_cont .inner_presen div h4 {
+            margin-top: 20px;
+            height: 40px;
+            font-family: 'Noto Sans JP', sans-serif;
+            letter-spacing: 1px; }
+            .lecturer .presenter_cont .inner_presen div h4 img {
+              width: 100%;
+              max-width: 30px;
+              margin-right: 10px;
+              vertical-align: middle; }
+        .lecturer .presenter_cont .inner_presen p {
+          font-size: 14px;
+          width: 90%;
+          margin: auto;
+          line-height: 200%;
+          font-family: 'Noto Sans JP', sans-serif; }
+      .lecturer .presenter_cont .inner_presen_bg {
+        width: 100%;
+        height: 600px;
+        background-color: #f8f8f8;
+        border-radius: 5px;
+        padding: 30px; }
+        .lecturer .presenter_cont .inner_presen_bg .school_intro {
+          width: 100%;
+          display: grid;
+          grid-template-rows: 60px 400px;
+          align-items: center;
+          margin-bottom: 20px; }
+          .lecturer .presenter_cont .inner_presen_bg .school_intro .inner_si {
+            font-family: 'Noto Sans JP', sans-serif; }
+            .lecturer .presenter_cont .inner_presen_bg .school_intro .inner_si img {
+              width: 100%;
+              max-width: 200px;
+              margin: 0 auto;
+              display: block; }
+            .lecturer .presenter_cont .inner_presen_bg .school_intro .inner_si h3 {
+              width: 90%;
+              margin-bottom: 10px; }
+            .lecturer .presenter_cont .inner_presen_bg .school_intro .inner_si p {
+              font-size: 14px;
+              width: 100%;
+              line-height: 200%; }
+        .lecturer .presenter_cont .inner_presen_bg .yellow_btn {
+          width: 100%;
+          display: block;
+          margin: 0 auto; }
+          .lecturer .presenter_cont .inner_presen_bg .yellow_btn img {
+            width: 100%;
+            max-width: 100%;
+            height: auto; }
+  .voice {
+    width: 95%;
+    height: auto;
+    background-color: white;
+    margin: 50px auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    overflow: hidden; }
+    .voice h2 {
+      font-size: 28px;
+      font-family: 'Noto Sans JP', sans-serif;
+      color: #13417c;
+      width: 90%;
+      letter-spacing: 2px;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 50px; }
+    .voice .group_peop {
+      width: 90%;
+      margin: 30px auto; }
+      .voice .group_peop img {
+        width: 100%;
+        max-width: 100%; }
+    .voice .commnets_container {
+      width: 90%;
+      height: 250px;
+      margin: 25px auto;
+      display: grid;
+      grid-template-rows: repeat(4, 50px);
+      grid-row-gap: 20px; }
+      .voice .commnets_container li {
+        list-style: none;
+        text-align: center; }
+        .voice .commnets_container li img {
+          width: 100%;
+          max-width: 90%; }
+    .voice .inner_voice {
+      width: 90%;
+      margin: 0 auto; }
+      .voice .inner_voice h3 {
+        font-size: 20px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-family: 'Noto Sans JP', sans-serif; }
+      .voice .inner_voice p {
+        font-size: 14px;
+        font-family: 'Noto Sans JP', sans-serif;
+        line-height: 200%;
+        letter-spacing: 1px; }
+        .voice .inner_voice p span {
+          font-weight: 600; }
+    .voice .yellow_btn {
+      width: 90%;
+      display: block;
+      margin: 0 auto;
+      margin-top: 50px;
+      text-align: center; }
+      .voice .yellow_btn img {
+        width: 100%;
+        max-width: 90%;
+        height: auto; }
+  .social_ga {
+    width: 95%;
+    height: auto;
+    background-color: white;
+    margin: 50px auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    overflow: hidden; }
+    .social_ga h2 {
+      font-size: 28px;
+      font-family: 'Noto Sans JP', sans-serif;
+      color: #13417c;
+      width: 95%;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 50px; }
+    .social_ga .soci_img {
+      width: 90%;
+      margin: 30px auto; }
+      .social_ga .soci_img img {
+        width: 100%;
+        max-width: 100%; }
+    .social_ga .soci_img + p {
+      width: 90%;
+      margin: 30px auto;
+      font-family: 'Noto Sans JP', sans-serif;
+      font-size: 14px;
+      line-height: 200%; }
+      .social_ga .soci_img + p span {
+        font-weight: 600; }
+      .social_ga .soci_img + p .blue {
+        color: #13417c; }
+      .social_ga .soci_img + p .red {
+        color: #bd2739; }
+    .social_ga .schedule_list {
+      width: 90%;
+      margin: 0 auto; }
+      .social_ga .schedule_list li {
+        font-family: 'Noto Sans JP', sans-serif;
+        font-size: 14px;
+        margin-bottom: 30px;
+        list-style: none;
+        display: grid;
+        grid-template-columns: 20% 80%;
+        height: 70px;
+        padding: 15px;
+        padding-bottom: 30px;
+        background: #f8f8f8;
+        box-shadow: 0 2px 2px 1px #ccc;
+        letter-spacing: 2px;
+        padding-left: 30px; }
+        .social_ga .schedule_list li span {
+          color: #13417c;
+          font-weight: 600; }
+        .social_ga .schedule_list li img {
+          width: 100%;
+          max-width: 50%; }
+    .social_ga .schedule_list + p {
+      font-family: 'Noto Sans JP', sans-serif;
+      font-size: 14px;
+      width: 90%;
+      margin: 30px auto;
+      color: #b1b1b1; } }
 
 * {
   margin: 0;
