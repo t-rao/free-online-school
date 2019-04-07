@@ -637,7 +637,82 @@
       font-size: 18px;
       width: 700px;
       margin: 30px auto;
-      color: #b1b1b1; } }
+      color: #b1b1b1; }
+  .company_pro {
+    width: 1024px;
+    height: auto;
+    background-color: white;
+    margin: 50px auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    overflow: hidden; }
+    .company_pro h2 {
+      font-size: 40px;
+      font-family: 'Noto Sans JP', sans-serif;
+      color: #13417c;
+      width: 800px;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 50px; }
+    .company_pro table {
+      width: 700px;
+      margin: 0 auto;
+      font-family: 'Noto Sans JP', sans-serif;
+      font-size: 18px; }
+      .company_pro table th {
+        width: 300px;
+        text-align: right; }
+      .company_pro table td {
+        width: 400px; }
+    .company_pro .req_info {
+      width: 800px;
+      margin: 50px auto;
+      padding: 40px;
+      background-color: #f8f8f8;
+      border-radius: 5px;
+      font-family: 'Noto Sans JP', sans-serif; }
+      .company_pro .req_info p {
+        line-height: 200%; }
+        .company_pro .req_info p span {
+          color: #13417c;
+          font-weight: 600; }
+      .company_pro .req_info h3 {
+        text-align: center;
+        font-family: 'Noto Sans JP', sans-serif;
+        color: #13417c;
+        font-size: 28px; }
+      .company_pro .req_info h4 {
+        color: #13417c;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-size: 20px; }
+      .company_pro .req_info .blue_button {
+        width: 330px;
+        height: 60px;
+        display: block;
+        margin: 50px auto;
+        background-color: #269dd4;
+        font-size: 16px;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: none;
+        letter-spacing: 2px; }
+  footer {
+    width: 720px;
+    margin: 0 auto;
+    margin-bottom: 50px; }
+    footer .school_logo {
+      text-align: center;
+      margin-bottom: 10px; }
+      footer .school_logo img {
+        width: 100%;
+        max-width: 300px; }
+    footer p {
+      font-family: 'Noto Sans JP', sans-serif;
+      font-size: 15px;
+      text-align: center; } }
 
 @media screen and (min-width: 769px) and (max-width: 1200px) {
   .main_visuals {
@@ -1265,7 +1340,82 @@
       font-size: 18px;
       width: 700px;
       margin: 30px auto;
-      color: #b1b1b1; } }
+      color: #b1b1b1; }
+  .company_pro {
+    width: 960px;
+    height: auto;
+    background-color: white;
+    margin: 50px auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    overflow: hidden; }
+    .company_pro h2 {
+      font-size: 40px;
+      font-family: 'Noto Sans JP', sans-serif;
+      color: #13417c;
+      width: 800px;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 50px; }
+    .company_pro table {
+      width: 700px;
+      margin: 0 auto;
+      font-family: 'Noto Sans JP', sans-serif;
+      font-size: 18px; }
+      .company_pro table th {
+        width: 300px;
+        text-align: right; }
+      .company_pro table td {
+        width: 400px; }
+    .company_pro .req_info {
+      width: 800px;
+      margin: 50px auto;
+      padding: 40px;
+      background-color: #f8f8f8;
+      border-radius: 5px;
+      font-family: 'Noto Sans JP', sans-serif; }
+      .company_pro .req_info p {
+        line-height: 200%; }
+        .company_pro .req_info p span {
+          color: #13417c;
+          font-weight: 600; }
+      .company_pro .req_info h3 {
+        text-align: center;
+        font-family: 'Noto Sans JP', sans-serif;
+        color: #13417c;
+        font-size: 28px; }
+      .company_pro .req_info h4 {
+        color: #13417c;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-size: 20px; }
+      .company_pro .req_info .blue_button {
+        width: 330px;
+        height: 60px;
+        display: block;
+        margin: 50px auto;
+        background-color: #269dd4;
+        font-size: 16px;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: none;
+        letter-spacing: 2px; }
+  footer {
+    width: 960px;
+    margin: 0 auto;
+    margin-bottom: 50px; }
+    footer .school_logo {
+      text-align: center;
+      margin-bottom: 10px; }
+      footer .school_logo img {
+        width: 100%;
+        max-width: 300px; }
+    footer p {
+      font-family: 'Noto Sans JP', sans-serif;
+      font-size: 15px;
+      text-align: center; } }
 
 @media screen and (min-width: 501px) and (max-width: 768px) {
   .main_visuals {
@@ -1893,7 +2043,82 @@
       font-size: 18px;
       width: 650px;
       margin: 30px auto;
-      color: #b1b1b1; } }
+      color: #b1b1b1; }
+  .company_pro {
+    width: 720px;
+    height: auto;
+    background-color: white;
+    margin: 50px auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    overflow: hidden; }
+    .company_pro h2 {
+      font-size: 40px;
+      font-family: 'Noto Sans JP', sans-serif;
+      color: #13417c;
+      width: 600px;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 50px; }
+    .company_pro table {
+      width: 600px;
+      margin: 0 auto;
+      font-family: 'Noto Sans JP', sans-serif;
+      font-size: 18px; }
+      .company_pro table th {
+        width: 300px;
+        text-align: right; }
+      .company_pro table td {
+        width: 400px; }
+    .company_pro .req_info {
+      width: 600px;
+      margin: 50px auto;
+      padding: 40px;
+      background-color: #f8f8f8;
+      border-radius: 5px;
+      font-family: 'Noto Sans JP', sans-serif; }
+      .company_pro .req_info p {
+        line-height: 200%; }
+        .company_pro .req_info p span {
+          color: #13417c;
+          font-weight: 600; }
+      .company_pro .req_info h3 {
+        text-align: center;
+        font-family: 'Noto Sans JP', sans-serif;
+        color: #13417c;
+        font-size: 28px; }
+      .company_pro .req_info h4 {
+        color: #13417c;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-size: 20px; }
+      .company_pro .req_info .blue_button {
+        width: 330px;
+        height: 60px;
+        display: block;
+        margin: 50px auto;
+        background-color: #269dd4;
+        font-size: 16px;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: none;
+        letter-spacing: 2px; }
+  footer {
+    width: 720px;
+    margin: 0 auto;
+    margin-bottom: 50px; }
+    footer .school_logo {
+      text-align: center;
+      margin-bottom: 10px; }
+      footer .school_logo img {
+        width: 100%;
+        max-width: 300px; }
+    footer p {
+      font-family: 'Noto Sans JP', sans-serif;
+      font-size: 15px;
+      text-align: center; } }
 
 @media screen and (max-width: 500px) {
   .main_visuals {
@@ -2517,7 +2742,7 @@
         list-style: none;
         display: grid;
         grid-template-columns: 20% 80%;
-        height: 75px;
+        height: 80px;
         padding: 15px;
         align-items: center;
         padding-bottom: 30px;
@@ -2536,7 +2761,83 @@
       font-size: 14px;
       width: 90%;
       margin: 30px auto;
-      color: #b1b1b1; } }
+      color: #b1b1b1; }
+  .company_pro {
+    width: 95%;
+    height: auto;
+    background-color: white;
+    margin: 50px auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    overflow: hidden; }
+    .company_pro h2 {
+      font-size: 28px;
+      font-family: 'Noto Sans JP', sans-serif;
+      color: #13417c;
+      width: 90%;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 50px; }
+    .company_pro table {
+      width: 90%;
+      margin: 0 auto;
+      font-family: 'Noto Sans JP', sans-serif;
+      font-size: 14px; }
+      .company_pro table th {
+        width: 300px;
+        text-align: right; }
+      .company_pro table td {
+        width: 400px; }
+    .company_pro .req_info {
+      width: 90%;
+      margin: 50px auto;
+      padding: 40px;
+      background-color: #f8f8f8;
+      border-radius: 5px;
+      font-family: 'Noto Sans JP', sans-serif; }
+      .company_pro .req_info p {
+        line-height: 200%; }
+        .company_pro .req_info p span {
+          color: #13417c;
+          font-weight: 600; }
+      .company_pro .req_info h3 {
+        text-align: center;
+        font-family: 'Noto Sans JP', sans-serif;
+        color: #13417c;
+        font-size: 20px;
+        margin-bottom: 30px; }
+      .company_pro .req_info h4 {
+        color: #13417c;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-size: 18px; }
+      .company_pro .req_info .blue_button {
+        width: 90%;
+        height: 60px;
+        display: block;
+        margin: 50px auto;
+        background-color: #269dd4;
+        font-size: 14px;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: none;
+        letter-spacing: 2px; }
+  footer {
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 50px; }
+    footer .school_logo {
+      text-align: center;
+      margin-bottom: 10px; }
+      footer .school_logo img {
+        width: 100%;
+        max-width: 200px; }
+    footer p {
+      font-family: 'Noto Sans JP', sans-serif;
+      font-size: 14px;
+      text-align: center; } }
 
 * {
   margin: 0;
