@@ -6,10 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Free online School</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:100,300,400,500,700,900" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
 </head>
-
 <body>
   <section class="main_visuals">
     <div class="mv_container">
@@ -154,9 +154,9 @@
     <h2>無料オンラインスクールを体験する</h2>
     <form action="ajax/contact.php" method="POST" class="news_letter" id="form-02">
       <p class="lable">お名前<span>（必須）</span></p>
-      <input type="text" name="name" id="" placeholder="田中太郎">
+      <input type="text" name="name" id="name" placeholder="田中太郎">
       <p class="lable">メールアドレス <span>（必須）</span></p>
-      <input type="text" name="email" id="" placeholder="sample@mail.com">
+      <input type="email" name="email" id="email" placeholder="sample@mail.com">
       <p>※<span>１分後に第１回目の授業の案内が届けられます</span>ので、<br>ご登録のメールボックスをご確認ください。<br> ※また、受講後に
         <span>何時でも解除が可能です。</span></p>
       <!-- <button></button> -->
@@ -281,11 +281,11 @@
       <img src="images/logo_black.png" alt="">
     </div>
     <h2>無料オンラインスクールを体験する</h2>
-    <form action="ajax/contact.php" method="POST" class="news_letter" id="form-01">
+    <form action="ajax/contact2.php" method="POST" class="news_letter" id="form-01">
       <p class="lable">お名前<span>（必須）</span></p>
-      <input type="text" name="name" id="" placeholder="田中太郎">
+      <input type="text" name="name" id="name1" placeholder="田中太郎">
       <p class="lable">メールアドレス <span>（必須）</span></p>
-      <input type="text" name="email" id="" placeholder="sample@mail.com">
+      <input type="email" name="email" id="email1" placeholder="sample@mail.com">
       <p>※<span>１分後に第１回目の授業の案内が届けられます</span>ので、<br>ご登録のメールボックスをご確認ください。<br> ※また、受講後に
         <span>何時でも解除が可能です。</span></p>
       <!-- <button></button> -->
@@ -341,7 +341,7 @@
       <h3>採用情報</h3>
 
       <p><span>求人業種</span>  システムエンジニア</p>
-      <p><span>募集職種</span> エンジニア/JAVA・PHP・Ruby</p> 
+      <p><span>募集職種</span> エンジニア/JAVA・PHP・Ruby</p>
       <h4>弊社で働く醍醐味</h4>
       <ol>
         <li>少数精鋭</li>
@@ -353,12 +353,12 @@
 
       <h4>事業内容</h4>
       <p>新機能開発や、新規事業の開発を行います。プロデューサーからの要件に基づき設計、実装、テスト、運用まで、一連の開発業務をご担当頂きます。</p>
-      
+
       <h4>業務内容</h4>
       <p>配属先については応募者と相談の上、決定いたします。</p>
       <h4>部署の魅力</h4>
       <p>部署メンバーにはデータベース、ネットワーク、ミドルウェアの各分野にスペシャリストが在籍しています。アドテク技術の最先端に触れることが出来るのも魅力的です。大きな裁量で仕事をしたい方、高い技術を取得したい方、世界に通ずるプロダクトを作り上げたい方、是非ご応募ください。</p>
-    
+
       <h4>経験・スキル</h4>
       <p>【必須スキル】</p>
       <ul>
@@ -400,21 +400,41 @@
 
           <h4>勤務時間</h4>
           <p>週休2日制（土曜・日曜）、祝日、夏期休暇（7月1日～11月30日までの期間に3日間）、年末年始休暇（12月29日～1月3日）、年次有給休暇（初年度10日間）、慶弔休暇、リフレッシュ休暇（勤続2年間で5日間）など</p>
-    
+
           <p>■各種保険</p>
           <p>健康保険、雇用保険、労災保険、厚生年金保険 </p>
 
           <p>■福利厚生</p>
           <p>従業員持株会、社内融資制度、家賃補助制度、社内カウンセリング制度、<br>
             慶弔見舞金制度、社内親睦会費補助制度など</p>
-            
+
             <h4>勤務時間</h4>
             <p>週休2日制（土曜・日曜）、祝日、夏期休暇（7月1日～11月30日までの期間に3日間）、年末年始休暇（12月29日～1月3日）、年次有給休暇（初年度10日間）、慶弔休暇、リフレッシュ休暇（勤続2年間で5日間）など</p>
-            
+
             <button class="blue_button"> 採用に関するお問い合わせ </button>
-        
+
           </div>
   </section>
+
+  <div class="modal fade" id="myModal" role="dialog">
+       <div class="modal-dialog">
+
+         <!-- Modal content-->
+         <div class="modal-content">
+           <div class="modal-header">
+             <button type="button" class="close" data-dismiss="modal">&times;</button>
+             <h4 class="modal-title">Modal Header</h4>
+           </div>
+           <div class="modal-body">
+               <div id="form-messages"></div>
+           </div>
+           <div class="modal-footer">
+             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+           </div>
+         </div>
+
+       </div>
+     </div>
 
   <footer>
     <div class="school_logo">
@@ -423,6 +443,7 @@
     <p>©２０１９大富豪の学校</p>
   </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 
